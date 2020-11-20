@@ -1,0 +1,35 @@
+{
+  "name": "sveltail-example",
+  "version": "1.0.0",
+  "description": "A Sveltail Example App to let you quickly test and see the native apps in action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newCodeRunner/sveltail-example.git"
+  },
+  "keywords": [
+    "svelte",
+    "sveltail",
+    "example",
+    "test sveltail native apps",
+    "cross-platform",
+    "nativescript",
+    "electron",
+    "cordova",
+    "tailwind",
+    "ui",
+    "cross",
+    "platform",
+    "tailwindcss",
+    "svelte-native"
+  ],
+  "author": "newCodeRunner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newCodeRunner/sveltail-example/issues"
+  },
+  "homepage": "https://github.com/newCodeRunner/sveltail-example#readme"
+}
