@@ -19,6 +19,7 @@
 
 # Framework
 .sveltail
+dist/
 src-cordova/platforms
 src-cordova/plugins
 
