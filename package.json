@@ -1,35 +1,26 @@
 {
   "name": "sveltail-example",
   "version": "1.0.0",
-  "description": "A Sveltail Example App to let you quickly test and see the native apps in action",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A Sveltail Example",
+  "app": {
+    "id": "app.web.sveltail",
+    "name": "Sveltail Demo",
+    "email": "awesome@svetail.com",
+    "website": "svetail.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/newCodeRunner/sveltail-example.git"
+  "devDependencies": {
+    "sveltail": "^0.0.18"
   },
-  "keywords": [
-    "svelte",
-    "sveltail",
-    "example",
-    "test sveltail native apps",
-    "cross-platform",
-    "nativescript",
-    "electron",
-    "cordova",
-    "tailwind",
-    "ui",
-    "cross",
-    "platform",
-    "tailwindcss",
-    "svelte-native"
-  ],
   "author": "newCodeRunner",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/newCodeRunner/sveltail-example/issues"
-  },
-  "homepage": "https://github.com/newCodeRunner/sveltail-example#readme"
+  "scripts": {
+    "st-config": "sveltail config",
+    "st-icons": "sveltail icons --path src/assets/logo.png",
+    "st-dev": "sveltail dev",
+    "st-build": "sveltail build",
+    "st-dev-cor-android": "sveltail dev --cordova --android",
+    "st-dev-cor-ios": "sveltail dev --cordova --ios",
+    "st-build-cor-android": "sveltail build --cordova --android",
+    "st-build-cor-ios": "sveltail build --cordova --ios"
+  }
 }
